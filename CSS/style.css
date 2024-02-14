@@ -1,0 +1,192 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
+/* font-family: 'Inter', sans-serif; */
+
+:root {
+    --second-text-color: #888B97;
+    --accent-color: #061495;
+    --text-color: #1d1d1d;
+}
+
+* {
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    font-family: 'Inter', sans-serif;
+}
+
+div.title-container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 20px;
+}
+
+div.title-container div.titles {
+    margin-left: 100px;
+}
+
+div.title-container div.titles p{
+    font-size: 10px;
+    color: #F59E0B;
+}
+
+div.title-container div.titles h2{
+    font-size: 24px;
+    color: #1B1C57;
+}
+
+div.title-container div.menu {
+    display: flex;
+    align-items: center;
+    gap: 30px;
+}
+
+button {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 5px;
+}
+
+.bnt {
+    padding: 12px 20px;
+    background-color: transparent;
+    border: 1px solid var(--second-text-color);
+    border-radius: 50px;
+}
+
+img {
+    width: 15px;
+    height:15px;
+}
+
+.active {
+    background-color: var(--accent-color);
+    color: white;
+}
+
+div.cards {
+    height: 600px;
+    display: flex;
+    align-items: center;
+    gap: 30px;
+    margin-left: 120px;
+}
+
+div.cards div.card {
+    width: 340px;
+    height: 590px;
+}
+
+div.cards div.card div.img-container{
+    height: 382px;
+    background-size: cover;
+    background-position: center;
+    border-radius: 20px;
+    position: relative;
+}
+
+.img-1 {
+    background-image: url('../images/1.png');
+}
+
+.img-2 {
+    background-image: url('../images/2.png');
+}
+
+.img-3 {
+    background-image: url('../images/3.png');
+}
+
+div.cards div.card div.img-container div.label {
+    position: absolute;
+    bottom: 20px;
+    left: 20px;
+    display: flex;
+    align-items: center;
+    padding: 10px 16px;
+    border-radius: 50px;
+    font-size: 14px;
+    gap: 10px;
+    font-weight: 600;
+}
+
+.l-1 {
+    background-color: #FEE2E2;
+    color: #EF4444;
+}
+
+.l-2 {
+    background-color: #DBEAFE;
+    color: #1D4ED8;
+}
+
+.l-3 {
+    background-color: #D1FAE5;
+    color: #047857;
+}
+
+div.cards div.card > h3 {
+    font-size: 20px;
+    color: #0E1735;
+    font-weight: 500;
+    margin-top: 20px;
+    margin-bottom: 12px;
+}
+
+div.cards div.card > p {
+    font-size: 16px;
+    font-weight: 500;
+    color: #3C4563;
+    margin-bottom: 16px;
+}
+
+div.cards div.card div.info-container {
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    gap: 10px;
+    padding: 10px 0;
+}
+
+div.cards div.card div.info-container div.info-img-container {
+    background-position: center;
+    background-size: cover;
+    width:  35px;
+    height: 35px;
+}
+
+.info-img-1 {
+    background-image: url('../images/info-1.png');
+}
+
+.info-img-2 {
+    background-image: url('../images/info-2.png');
+}
+
+.info-img-3 {
+    background-image: url('../images/info-3.png');
+}
+
+div.cards div.card div.info-container div.info-text{
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+
+div.cards div.card div.info-container div.info-text > h4{
+    font-size: 16px;
+    font-weight: 500;
+    color: #0E1735;
+
+}
+
+div.cards div.card div.info-container div.info-text > p{
+    font-size: 14px;
+    font-weight: 500;
+    color: #888B97;
+
+}
